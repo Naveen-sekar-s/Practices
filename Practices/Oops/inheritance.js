@@ -1,11 +1,7 @@
-class parent{
-    constructor(){
-
-    }
+class parent {
+  constructor() {}
 }
-class child{
-    constructor(){
-
-    }
+class child {
+  constructor() {}
 }
-let childs=new child()
+let childs = new child();
