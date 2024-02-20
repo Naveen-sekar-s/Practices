@@ -7,5 +7,4 @@ const person = {
   },
 };
 
-console.log(person.id)
-
+console.log(person.id);

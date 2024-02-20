@@ -3,4 +3,4 @@
 let x = 5;
 x++;
 let y = x;
-console.log(y)
+console.log(y);

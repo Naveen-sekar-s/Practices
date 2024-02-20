@@ -5,4 +5,4 @@
 // The following code declares (creates) an array called cars, containing three items (car names):
 
 const cars = ["Saab", "Volvo", "BMW"];
-console.log(cars)
+console.log(cars);

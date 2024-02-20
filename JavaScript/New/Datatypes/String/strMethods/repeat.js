@@ -2,4 +2,4 @@
 If count is 0, the empty string is returned. */
 let str = "Development";
 clg = str.repeat(3);
-console.log(clg)
+console.log(clg);
