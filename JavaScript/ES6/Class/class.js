@@ -1,5 +1,5 @@
 class Employess {
-  constructor() {
+  constructor(name, eid, salary, loc) {
     this.empDetails = [
       {
         emp1: {
@@ -20,6 +20,12 @@ class Employess {
           salary: 500000,
           loc: ["Salem", " TamilNadu"],
         },
+        emp4: {
+          name: name,
+          eid: eid,
+          salary: salary,
+          loc: loc,
+        },
       },
     ];
   }
@@ -30,6 +36,6 @@ class Employess {
     }
   }
 }
-let data = new Employess();
+let data = new Employess("Sumithra", 104, 10000, ["Salem", "Tamilnadu"]);
 
 data.printDetails();
